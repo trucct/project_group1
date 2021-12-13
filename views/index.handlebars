@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<div class="jumbotron text-center">
+    <h1>Bài viết của bạn</h1>
+    <p>Ghi chép bài viết dễ dàng</p>
+    <a href="/posts/add" class="btn btn-dark btn-lg">Viết bài mới</a>
+</div>
+<ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+            Bài viết
+          </a>
+          <div class="dropdown-menu">
+            <a href="/posts" class="dropdown-item">Tất cả bài viết</a>
+            <a href="/posts/add" class="dropdown-item">Tạo bài viết mới</a>
+          </div>
+        </li>
+</ul>
+
+
+{{!-- style --}}
+<style>
+    a:hover {
+        color: green;
+        font-weight: bold;
+    }
+</style>
